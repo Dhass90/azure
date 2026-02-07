@@ -1,0 +1,9 @@
+{
+	"name": "project200126",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "deb76198-2004-464b-8af5-4b016852b2b4",
+		"tenantId": "1d8a964a-a60c-42ed-b0b5-fc6e638dcb2b"
+	}
+}

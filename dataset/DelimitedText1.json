@@ -1,0 +1,77 @@
+{
+	"name": "DelimitedText1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1project",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "dataazure.csv",
+				"container": "rawbucket"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "id",
+				"type": "String"
+			},
+			{
+				"name": "Date",
+				"type": "String"
+			},
+			{
+				"name": "Revenue",
+				"type": "String"
+			},
+			{
+				"name": "Expenses",
+				"type": "String"
+			},
+			{
+				"name": "COGS",
+				"type": "String"
+			},
+			{
+				"name": "Operating_Expenses",
+				"type": "String"
+			},
+			{
+				"name": "Depreciation",
+				"type": "String"
+			},
+			{
+				"name": "Amortization",
+				"type": "String"
+			},
+			{
+				"name": "Cash_Inflows",
+				"type": "String"
+			},
+			{
+				"name": "Cash_Outflows",
+				"type": "String"
+			},
+			{
+				"name": "AR",
+				"type": "String"
+			},
+			{
+				"name": "AP",
+				"type": "String"
+			},
+			{
+				"name": "Department",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
